@@ -61,6 +61,15 @@ const AUTRE_CONSTANTE='PHP 8';
 echo AUTRE_CONSTANTE.'<br>';
 
 
+$x = "PHP8";
+$a = &$x;
+$y = " 8 eme version de PHP";
+$z = $y * 10;
+$x = $y * $y;
+
+var_dump($z);
+var_dump($x);
+
 
 
 
